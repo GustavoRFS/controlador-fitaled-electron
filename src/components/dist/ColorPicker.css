@@ -1,0 +1,19 @@
+.color-picker {
+  max-width: 80vw;
+  border-radius: 4px !important;
+}
+.color-picker > div:last-child {
+  background-color: #0f0f2a;
+}
+.color-picker > div:last-child > div:first-child {
+  margin-top: -6px;
+}
+.color-picker > div:last-child > div:first-child > div:last-child {
+  margin-top: 8px;
+}
+.color-picker > div:last-child > div:first-child > div:last-child > div:last-child {
+  display: none !important;
+}
+.color-picker > div:last-child > div:last-child {
+  display: none !important;
+}
