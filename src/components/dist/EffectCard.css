@@ -1,0 +1,21 @@
+.effect-card {
+  margin-left: 10px;
+  height: 120px;
+  width: 150px;
+  border-radius: 4px;
+  color: #fafafa;
+  cursor: pointer;
+  background-color: #1f1f3a;
+  transition: background-color 0.1s ease;
+  padding: 0px 10px;
+}
+.effect-card:hover {
+  background-color: #2f2f4a;
+}
+.effect-card h1 {
+  text-align: start;
+  font-size: 16px;
+}
+.effect-card p {
+  font-size: 14px;
+}

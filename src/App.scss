@@ -37,7 +37,8 @@ body {
 .App-body {
   // padding: 0px 40px;
   background-color: #1e1a2e;
-  height: 430px;
+  height: 470px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -46,14 +47,14 @@ body {
 }
 
 .button {
-  width: 200px;
   text-align: center;
   background-color: #1f1f3a;
   color: #fafafa;
-  font-size: 14px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 5px 10px 2px 10px;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.1s ease;
   &:hover {
     background-color: #2f2f4a;
   }
@@ -62,7 +63,35 @@ body {
 .color-picker-container {
   display: flex;
   flex-direction: column;
-  height: 80%;
+  height: 90%;
+  width: 50vw;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.lists-container {
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.control {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  text-anchor: middle;
+  font-size: 14px;
+  color: #fafafa;
+}
+
+@media screen and (max-width: 800px) {
+  .App-body {
+    display: block;
+    margin-left: 60px;
+  }
 }

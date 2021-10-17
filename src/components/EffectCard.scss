@@ -1,0 +1,23 @@
+.effect-card {
+  margin-left: 10px;
+  height: 120px;
+  width: 150px;
+  border-radius: 4px;
+  color: #fafafa;
+  cursor: pointer;
+
+  background-color: #1f1f3a;
+  transition: background-color 0.1s ease;
+  &:hover {
+    background-color: #2f2f4a;
+  }
+  padding: 0px 10px;
+
+  h1 {
+    text-align: start;
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,42 @@
+.buttons-list-container {
+  h1 {
+    color: #fafafa;
+    font-size: 25px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 14px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-list {
+  height: 28vh;
+  margin-top: -10px;
+  margin-left: 20px;
+  max-height: 30vh;
+  overflow-y: scroll;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+
+  &::-webkit-scrollbar {
+    width: 8px; /* width of the entire scrollbar */
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #0002;
+    border-radius: 14px; /* color of the tracking area */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #1f1f3a; /* color of the scroll thumb */
+    border-radius: 14px; /* roundness of the scroll thumb */
+    &:hover {
+      background-color: #2f2f4a;
+    }
+  }
+}
